@@ -60,7 +60,7 @@ situations so hopefully you won't find them boring.
 
 1. Don't fork this repository. Clone it, maybe upload it to a private
    repository on your GitHub profile. This is required to make sure the
-   contests and working independently. We don't want you to share
+   contestants are working independently. We don't want you to share
    answers with each other.
 2. Install node and yarn
 3. Go to the directory containing this repository and run
