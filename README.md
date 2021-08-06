@@ -9,7 +9,7 @@
 <br /> <br />
 <div align="center">
 
-**SEE [HACKING.md](./docs/HACKING.md) to get started with the challenge**
+**See [HACKING.md](./docs/HACKING.md) to get started with the challenge**
 </div>
 
 ## Why?

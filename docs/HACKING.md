@@ -49,26 +49,65 @@ yarn test
 
 For instance, [Set 1 challenge 1](../src/1/1.ts) has a demo challenge
 that has been solved and it's accompanying test suite is available in
-[../src/1/1.test.ts](../src/1/1.test.ts). Run the above command(`yarn
-test`) to see the test passes.
+[../src/1/1.test.ts](../src/1/1.test.ts). Run the above command(`yarn test`) to see the test passes.
 
 I have done my best to design challenges that reflect real life
 situations so hopefully you won't find them boring.
 
-
 ## Workflow
+
+### Environment setup
 
 1. Don't fork this repository. Clone it, maybe upload it to a private
    repository on your GitHub profile. This is required to make sure the
    contests and working independently. We don't want you to share
    answers with each other.
-2. Solve a challenge
-3. Uncomment test suite
-4. Run tests with `yarn test`
-5. Commit your changes to git. If you are new to git, see [introduction
+2. Install node and yarn
+3. Go to the directory containing this repository and run
+
+```bash
+yarn install
+```
+
+4. Verify dev environment setup by running
+
+```bash
+yarn test
+```
+
+Output should be similar to
+
+```bash
+➜  docs git:(main) ✗ yarn test
+yarn run v1.22.11
+$ yarn jest
+$ /home/aravinth/code/wsoc/WSoC2103-TestRepo/node_modules/.bin/jest
+ PASS  src/1/1.test.ts
+  ✓ add works (3 ms)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |
+ 1.ts     |     100 |      100 |     100 |     100 |
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.823 s, estimated 2 s
+Ran all test suites.
+Done in 2.72s.
+```
+
+### Every challenge
+
+1. Solve a challenge
+2. Uncomment test suite
+3. Run tests with `yarn test`
+4. Commit your changes to git. If you are new to git, see [introduction
    to git] to get started.
-6. Optionally, push it to a private repository on your GitHub profile.
-7. Go to step 1
+5. Optionally, push it to a private repository on your GitHub profile.
+6. Go to step 1
 
 ## Resources
 
