@@ -6,6 +6,12 @@
 
 </div>
 
+<br /> <br />
+<div align="center">
+
+**SEE [HACKING.md](./docs/HACKING.md) to get started with the challenge**
+</div>
+
 ## Why?
 
 In this era, where internet has become an extension of our lives,

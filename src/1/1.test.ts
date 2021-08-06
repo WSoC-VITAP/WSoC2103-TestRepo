@@ -17,16 +17,16 @@
 
 import * as lib from './1';
 
-it('add works', () => {
+test('add works', () => {
   expect(lib.add(1, 1)).toBe(2);
 });
 
 /* CHALLENGE 2
  *
- * Please uncomment the following lines to activate the test suite
+ * Please uncomment the following lines to activate the test
  *
  */
 
-//it('multiply works', () => {
+//test('multiply works', () => {
 //  expect(lib.multiply(5, 2)).toBe(10);
 //});

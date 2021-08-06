@@ -28,5 +28,5 @@ export const add = (a: number, b: number) => a + b;
  * Create a function called "multiply" that will talke two parameters of type number
  * and returns product of the two numbers
  *
- * When you are done, uncomment the test suite marked "CHALLENGE 2" in ./1.test.ts
+ * When you are done, uncomment the test marked "CHALLENGE 2" in ./1.test.ts
  */
