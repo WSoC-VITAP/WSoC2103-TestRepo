@@ -14,6 +14,19 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-const add = (a: number, b: number) => a + b;
 
-export default add;
+import * as lib from './1';
+
+it('add works', () => {
+  expect(lib.add(1, 1)).toBe(2);
+});
+
+/* CHALLENGE 2
+ *
+ * Please uncomment the following lines to activate the test suite
+ *
+ */
+
+//it('multiply works', () => {
+//  expect(lib.multiply(5, 2)).toBe(10);
+//});

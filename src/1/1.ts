@@ -15,8 +15,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import add from './1';
+/* CHALLENGE 1
+ *
+ * First challenge is already implemented for you as way of demostratin how this
+ * setup works
+ */
+export const add = (a: number, b: number) => a + b;
 
-it('add works', () => {
-  expect(add(1, 1)).toBe(2);
-});
+
+/* CHALLENGE 2
+ *
+ * Create a function called "multiply" that will talke two parameters of type number
+ * and returns product of the two numbers
+ *
+ * When you are done, uncomment the test suite marked "CHALLENGE 2" in ./1.test.ts
+ */
