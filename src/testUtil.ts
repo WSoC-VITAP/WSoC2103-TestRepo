@@ -15,22 +15,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import * as lib from './1';
-
-import * as utils from '../testUtil';
-
-utils.placeholder();
-
-test('S1C1: add works', () => {
-  expect(lib.add(1, 1)).toBe(2);
-});
-
-/* CHALLENGE 2
- *
- * Please uncomment the following lines to activate the test
- *
- */
-
-//test('S1C2: multiply works', () => {
-//  expect(lib.multiply(5, 2)).toBe(10);
-//});
+export const placeholder = () => {
+  /*
+   * Jest, the test suite runner doesn't allow empty test files since we are
+   * commenting all tests. So this is a hack to get around that limitation
+   */
+  test.todo('Compilation hack. Please ignore');
+};

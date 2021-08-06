@@ -15,22 +15,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import * as lib from './1';
+import * as lib from './2';
 
 import * as utils from '../testUtil';
 
 utils.placeholder();
 
-test('S1C1: add works', () => {
-  expect(lib.add(1, 1)).toBe(2);
-});
-
-/* CHALLENGE 2
+/* CHALLENGE 1
  *
  * Please uncomment the following lines to activate the test
  *
  */
-
-//test('S1C2: multiply works', () => {
-//  expect(lib.multiply(5, 2)).toBe(10);
+//test('S2C1: isEmpty works', () => {
+//  expect(lib.isEmpty(undefined)).toBe(false);
+//  expect(lib.isEmpty("")).toBe(false);
+//  expect(lib.isEmpty(null)).toBe(false);
+//  expect(lib.isEmpty("    ")).toBe(false);
+//  expect(lib.isEmpty("foobar")).toBe(true);
 //});

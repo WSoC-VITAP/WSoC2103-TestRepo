@@ -15,22 +15,32 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import * as lib from './1';
-
-import * as utils from '../testUtil';
-
-utils.placeholder();
-
-test('S1C1: add works', () => {
-  expect(lib.add(1, 1)).toBe(2);
-});
-
-/* CHALLENGE 2
- *
- * Please uncomment the following lines to activate the test
- *
+/*
+ * Since identity is a frontend only program, it's important that we validate
+ * all user input. HTML tags to restrict input to a subset of chosen values are
+ * fine but they can be bypassed. A courrupt input could crash the whole program so
+ * validation is important.
  */
 
-//test('S1C2: multiply works', () => {
-//  expect(lib.multiply(5, 2)).toBe(10);
-//});
+/* CHALLENGE 1
+ *
+ * Create a function to check if a string is empty
+ *
+ * Function signature
+ * - name: isEmpty
+ * - parameters: a value that could be either one of the following:
+ *    - string
+ *    - null
+ *    - undefined
+ * - return type: boolean
+ *
+ * When you are done, uncomment the test marked "CHALLENGE 1" in ./2.test.ts
+ */
+
+
+/*
+ * Please ignore.
+ *
+ * TypeScript modules can't be empty. This is hack to overcome that limitation
+ */
+export {};
