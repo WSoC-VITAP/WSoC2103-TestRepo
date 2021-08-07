@@ -15,13 +15,6 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/*
- * Since identity is a frontend only program, it's important that we validate
- * all user input. HTML tags to restrict input to a subset of chosen values are
- * fine but they can be bypassed. A courrupt input could crash the whole program so
- * validation is important.
- */
-
 /* CHALLENGE 1
  *
  * Vanilla JavaScript is magnitudes faster than frameworks like React
