@@ -5,7 +5,7 @@
 </div>
 
 **WARNING: DON'T FORK THIS REPOSITORY. CLONE IT AND MAKE CHANGES TO YOUR
-LOCAL COPY. See [workflow](#workflow)**
+LOCAL COPY. See [workflow](#workflow) and [submission](#submission).**
 
 ## Dependencies
 
@@ -108,6 +108,13 @@ Done in 2.72s.
    to git] to get started.
 5. Optionally, push it to a private repository on your GitHub profile.
 6. Go to step 1
+
+### Submission
+
+Create a tarball or a zip file. Be sure to delete `node_modules`
+directory before compressing. You can either send it via email to
+realaravinth@batsense.net or via Discord at realaravinth#4111. **BUT
+DON'T SEND PULL REQUESTS.**
 
 ## Resources
 

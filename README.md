@@ -2,7 +2,7 @@
 <img src="docs/logo.svg" alt="Identity Logo" width="180" height="160" />
 
 <h1>Identity</h1>
-<b> Bleeding edge decentralized, privacy respecting identity management system </b>
+<b> Bleeding edge decentralized and privacy respecting identity management system </b>
 
 </div>
 
