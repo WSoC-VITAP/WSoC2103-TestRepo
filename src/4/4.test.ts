@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021  Aravinth Manivannan <realaravinth@batsensnet>
+ * Copyright (C) 2021  Aravinth Manivannan <realaravinth@batsense.net>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -8,7 +8,7 @@
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOS  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
@@ -19,10 +19,9 @@ import * as lib from './4';
 
 import * as utils from '../testUtil';
 
-utils.placeholder();
-
 'use strict';
 
+utils.placeholder();
 jest.useFakeTimers();
 
 /* CHALLENGE 1

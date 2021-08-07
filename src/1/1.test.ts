@@ -19,6 +19,7 @@ import * as lib from './1';
 
 import * as utils from '../testUtil';
 
+'use strict';
 utils.placeholder();
 
 test('S1C1: add works', () => {

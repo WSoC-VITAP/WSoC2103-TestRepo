@@ -19,6 +19,8 @@ import * as lib from './2';
 
 import * as utils from '../testUtil';
 
+'use strict';
+
 utils.placeholder();
 
 /* CHALLENGE 1

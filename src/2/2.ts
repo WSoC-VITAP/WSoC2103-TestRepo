@@ -30,7 +30,6 @@
  * When you are done, uncomment the test marked "CHALLENGE 1" in ./2.test.ts
  */
 
-
 /*
  * Please ignore.
  *
