@@ -18,8 +18,8 @@
 /*
  * Since identity is a frontend only program, it's important that we validate
  * all user input. HTML tags to restrict input to a subset of chosen values are
- * fine but they can be bypassed. A courrupt input could crash the whole program so
- * validation is important.
+ * fine but they can be bypassed. A corrupted input could crash the whole 
+ * program so validation is important.
  */
 
 /* CHALLENGE 1
@@ -41,6 +41,6 @@
 /*
  * Please ignore.
  *
- * TypeScript modules can't be empty. This is hack to overcome that limitation
+ * TypeScript modules can't be empty. This is a hack to overcome that limitation
  */
 export {};
