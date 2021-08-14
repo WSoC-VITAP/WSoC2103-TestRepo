@@ -50,3 +50,8 @@
  * TypeScript modules can't be empty. This is hack to overcome that limitation
  */
 export {};
+
+/* FOOT NOTES
+ * For more game development performance hacks, check out this Reddit post
+ * by u/HipHopHuman: https://reddit.com/mwx2xd
+ */
