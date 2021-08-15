@@ -120,7 +120,7 @@ DON'T SEND PULL REQUESTS.**
 
 - Node: https://nodejs.org/dist/v16.6.1/
 - Yarn: https://yarnpkg.com/getting-started/install/
-- TypeScript cheatsheet: https://rogerdudler.github.io/git-guide/
+- TypeScript cheatsheet: https://learnxinyminutes.com/docs/typescript/
 - [Introduction to git]
 - Mozilla Developer Network(MDN), the webdev bible: https://developer.mozilla.org/en-US/
 
