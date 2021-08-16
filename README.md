@@ -7,10 +7,21 @@
 </div>
 
 <br /> <br />
+
 <div align="center">
 
 **See [HACKING.md](./docs/HACKING.md) to get started with the challenge**
+
 </div>
+
+## UPDATES
+
+- **2021-08-16 16:52:** @AdityaMitra5102 pointed out multiple errors in set 2's
+  test suite(the test suite was inverted). It is now fixed. Please
+  update local copies with
+  ```bash
+  git pull
+  ```
 
 ## Why?
 
