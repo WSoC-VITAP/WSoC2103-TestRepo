@@ -29,9 +29,9 @@ utils.placeholder();
  *
  */
 //test('S2C1: isEmpty works', () => {
-//  expect(lib.isEmpty(undefined)).toBe(false);
-//  expect(lib.isEmpty("")).toBe(false);
-//  expect(lib.isEmpty(null)).toBe(false);
-//  expect(lib.isEmpty("    ")).toBe(false);
-//  expect(lib.isEmpty("foobar")).toBe(true);
+//  expect(lib.isEmpty(undefined)).toBe(true);
+//  expect(lib.isEmpty("")).toBe(true);
+//  expect(lib.isEmpty(null)).toBe(true);
+//  expect(lib.isEmpty("    ")).toBe(true);
+//  expect(lib.isEmpty("foobar")).toBe(false);
 //});
