@@ -73,4 +73,21 @@
  *
  * TypeScript modules can't be empty. This is hack to overcome that limitation
  */
+export function createError(message: string): Element | null {
+    var error_box = document.createElement("div");
+    error_box.className = "error__dialog-box";
+    error_box.innerHTML = message;
+  
+    // var error_box = document.getElementsByClassName("error__dialog-box")[0];
+    // error_box.innerHTML = message;
+  
+    const hide_btn = document.createElement("Button");
+    hide_btn.className = "error__hide-btn";
+    hide_btn.textContent = "x";
+    error_box.appendChild(hide_btn);
+  
+    document.getElementById("error_container")?.appendChild(error_box);
+  
+    return error_box;
+  }
 export {};

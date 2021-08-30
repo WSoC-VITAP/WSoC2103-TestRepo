@@ -28,12 +28,12 @@ utils.placeholder();
  * Please uncomment the following lines to activate the test
  *
  */
-//it('S3C1: lazy element works', () => {
-//  const ELEMENT = document.createElement('div');
-//  ELEMENT.id = 'id';
-//  document.body.appendChild(ELEMENT);
-//
-//  expect(lib.lazyElement()).toEqual(ELEMENT);
-//  ELEMENT.className = 'foo';
-//  expect(lib.lazyElement()).toEqual(ELEMENT);
-//});
+it('S3C1: lazy element works', () => {
+ const ELEMENT = document.createElement('div');
+ ELEMENT.id = 'id';
+ document.body.appendChild(ELEMENT);
+
+ expect(lib.lazyElement()).toEqual(ELEMENT);
+ ELEMENT.className = 'foo';
+ expect(lib.lazyElement()).toEqual(ELEMENT);
+});

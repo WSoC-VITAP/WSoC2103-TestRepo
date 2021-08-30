@@ -49,6 +49,10 @@
  *
  * TypeScript modules can't be empty. This is hack to overcome that limitation
  */
+export function lazyElement(): HTMLElement|null{
+    var id=document.getElementById('id');
+        return id;
+}
 export {};
 
 /* FOOT NOTES

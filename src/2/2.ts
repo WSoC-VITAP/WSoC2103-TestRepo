@@ -35,4 +35,13 @@
  *
  * TypeScript modules can't be empty. This is a hack to overcome that limitation
  */
+export function isEmpty(a: any) :boolean{
+    
+    if(!a?.trim()){
+        return true;
+    }
+    else{
+        return false;  
+    } 
+}
 export {};

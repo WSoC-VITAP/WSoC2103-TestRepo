@@ -32,6 +32,6 @@ test('S1C1: add works', () => {
  *
  */
 
-//test('S1C2: multiply works', () => {
-//  expect(lib.multiply(5, 2)).toBe(10);
-//});
+test('S1C2: multiply works', () => {
+ expect(lib.multiply(5, 2)).toBe(10);
+});

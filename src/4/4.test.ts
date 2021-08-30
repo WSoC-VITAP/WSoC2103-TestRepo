@@ -30,35 +30,35 @@ jest.useFakeTimers();
  *
  */
 
-//it('checks if error boxes work', () => {
-//  const ERR_CONTAINER_ID = 'error__container';
-//
-//  const ERR_MSG_CONTAINER = 'error__dialog-box'; // class
-//  const ERR_CLOSE = 'error__hide-btn'; // class
-//
-//  const getMsg = (num: number) => `message ${num}`;
-//
-//  // create error container
-//  const container = document.createElement('div');
-//  container.id = ERR_CONTAINER_ID;
-//  document.body.append(container);
-//
-//  // create first error message
-//  let msg = lib.createError(getMsg(1));
-//  expect(msg).toEqual(document.querySelector(`.${ERR_MSG_CONTAINER}`));
-//  expect(msg.innerHTML).toContain(getMsg(1));
-//
-//  // find created error message's button and click it
-//  let btn = <HTMLButtonElement>msg.getElementsByClassName(ERR_CLOSE)[0];
-//  btn.click();
-//  expect(document.querySelector(`.${ERR_MSG_CONTAINER}`)).toEqual(null);
-//
-//  // create a second error message
-//  msg = lib.createError(getMsg(2));
-//  expect(msg).toEqual(document.querySelector(`.${ERR_MSG_CONTAINER}`));
-//  expect(msg.innerHTML).toContain(getMsg(2));
-//
-//  // wait the timer out
-//  jest.runOnlyPendingTimers();
-//  expect(document.querySelector(`.${ERR_MSG_CONTAINER}`)).toEqual(null);
-//});
+it('checks if error boxes work', () => {
+ const ERR_CONTAINER_ID = 'error__container';
+
+ const ERR_MSG_CONTAINER = 'error__dialog-box'; // class
+ const ERR_CLOSE = 'error__hide-btn'; // class
+
+ const getMsg = (num: number) => `message ${num}`;
+
+ // create error container
+ const container = document.createElement('div');
+ container.id = ERR_CONTAINER_ID;
+ document.body.append(container);
+
+ // create first error message
+ let msg = lib.createError(getMsg(1));
+ expect(msg).toEqual(document.querySelector(`.${ERR_MSG_CONTAINER}`));
+ expect(msg.innerHTML).toContain(getMsg(1));
+
+ // find created error message's button and click it
+ let btn = <HTMLButtonElement>msg.getElementsByClassName(ERR_CLOSE)[0];
+ btn.click();
+ expect(document.querySelector(`.${ERR_MSG_CONTAINER}`)).toEqual(null);
+
+ // create a second error message
+ msg = lib.createError(getMsg(2));
+ expect(msg).toEqual(document.querySelector(`.${ERR_MSG_CONTAINER}`));
+ expect(msg.innerHTML).toContain(getMsg(2));
+
+ // wait the timer out
+ jest.runOnlyPendingTimers();
+ expect(document.querySelector(`.${ERR_MSG_CONTAINER}`)).toEqual(null);
+});

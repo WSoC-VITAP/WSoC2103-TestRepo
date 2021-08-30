@@ -33,3 +33,7 @@ export const add = (a: number, b: number) => a + b;
  *
  * When you are done, uncomment the test marked "CHALLENGE 2" in ./1.test.ts
  */
+
+export function multiply(x:number, y: number): number{
+    return x*y;
+}
