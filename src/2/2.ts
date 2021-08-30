@@ -30,6 +30,14 @@
  * When you are done, uncomment the test marked "CHALLENGE 1" in ./2.test.ts
  */
 
+export function isEmpty(a: any): boolean {
+  if (!a?.trim()) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 /*
  * Please ignore.
  *

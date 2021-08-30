@@ -41,7 +41,7 @@
  *
  * HTML syntax:
  *
- * Please use document.createElement() to create elements. 
+ * Please use document.createElement() to create elements.
  * Don't use element.innerHTML. Doing so only updates what's displayed on screen
  * but doesn't update DOM leading to all sorts of nasty bugs.
  *
@@ -67,6 +67,24 @@
  *
  * When you are done, uncomment the test marked "CHALLENGE 1" in ./4.test.ts
  */
+
+export function createError(message: string): Element | null {
+  var error_box = document.createElement("div");
+  error_box.className = "error__dialog-box";
+  error_box.innerHTML = message;
+
+  // var error_box = document.getElementsByClassName("error__dialog-box")[0];
+  // error_box.innerHTML = message;
+
+  const hide_btn = document.createElement("Button");
+  hide_btn.className = "error__hide-btn";
+  hide_btn.textContent = "x";
+  error_box.appendChild(hide_btn);
+
+  document.getElementById("error_container")?.appendChild(error_box);
+
+  return error_box;
+}
 
 /*
  * Please ignore.

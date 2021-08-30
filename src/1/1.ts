@@ -17,7 +17,7 @@
 
 /* CHALLENGE 1
  *
- * First challenge is already implemented for you as a method of 
+ * First challenge is already implemented for you as a method of
  * demonstrating how this setup works
  */
 export const add = (a: number, b: number) => a + b;
@@ -33,3 +33,7 @@ export const add = (a: number, b: number) => a + b;
  *
  * When you are done, uncomment the test marked "CHALLENGE 2" in ./1.test.ts
  */
+
+export function multiply(x: number, y: number): number {
+  return x * y;
+}

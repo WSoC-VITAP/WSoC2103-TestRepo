@@ -44,6 +44,11 @@
  * When you are done, uncomment the test marked "CHALLENGE 1" in ./3.test.ts
  */
 
+export function lazyElement(): HTMLElement | null {
+  var id = document.getElementById("id");
+  return id;
+}
+
 /*
  * Please ignore.
  *
